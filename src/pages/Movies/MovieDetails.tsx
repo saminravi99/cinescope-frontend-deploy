@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
 export default function MovieDetails() {
   const { id: slug } = useParams();
   // console.log(slug);
-  const { data, isLoading } = useGetMovieDetailsAndReviewsQuery(slug as string);
+  const { data, isLoading } = useGetMovieDetailsAndReviewsQuery(slug);
 
   if (isLoading)
     return (
