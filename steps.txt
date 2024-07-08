@@ -1,0 +1,4 @@
+1. Backend Deployment - done
+2. Backend url replacement  - done
+3. Project build - done
+4. deployment
